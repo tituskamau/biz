@@ -1,31 +1,39 @@
 # Security Policy
 
+## Supported Versions
+
+This repository follows a rolling security policy. We recommend using the latest release or main branch for the most up-to-date security fixes.
+
 ## Reporting a Vulnerability
 
-We take security issues seriously. If you discover a security vulnerability in 3dinterior, please report it privately.
+If you discover a security issue, please report it privately so we can investigate and resolve it before public disclosure.
 
-**Do not disclose security-related issues publicly via GitHub issues.**
+Preferred methods:
 
-Instead, send a detailed report to: dev@nearmelab.digital
+- Email: security@biz.example.com
+- GitHub Security Advisories: https://github.com/Users/ORGNAME/biz/security/advisories
 
 Please include:
-- Description of the vulnerability
+
+- A clear description of the vulnerability
 - Steps to reproduce
-- Potential impact
-- Any suggested fixes (if available)
+- Impact assessment
+- Any relevant proof of concept or sample code
 
 ## What to Expect
 
-- **Acknowledgment**: Within 48 hours
-- **Status updates**: Within 5 business days
-- **Resolution timeline**: Based on severity, typically 7-14 days
+- A confirmation reply within 3 business days
+- Regular updates as we investigate
+- A coordinated disclosure when the issue is fixed
 
-We'll keep you informed throughout the process and give credit when the fix is released.
+## Responsible Disclosure
 
-## Supported Versions
+We ask that you:
 
-| Version | Supported |
-|---------|-----------|
-| 6.0.x   | ✅ Yes |
-| 5.x.x   | ✅ Yes |
-| 4.x.x   | :x: No |
+- Keep the report private until we resolve the issue
+- Give us reasonable time to fix the vulnerability
+- Avoid creating public PoCs until the issue is addressed
+
+## Non-Security Issues
+
+For bug reports, feature requests, or general questions, please use GitHub Issues: https://github.com/Users/ORGNAME/biz/issues
